@@ -1,0 +1,204 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 48540,
+            "type": "VEC3",
+            "max": [
+                1.7070626020431519,
+                4.580650329589844,
+                0.8472252488136292
+            ],
+            "min": [
+                -1.7070626020431519,
+                -0.008262859657406807,
+                -0.8695316314697266
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 48540,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                0.9999913573265076,
+                0.9999895691871643
+            ],
+            "min": [
+                -0.9999626278877258,
+                -0.9998319745063782,
+                -0.9999988079071045
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 48540,
+            "type": "VEC2",
+            "max": [
+                0.9925000071525574,
+                0.9965500235557556
+            ],
+            "min": [
+                0.005733999889343977,
+                0.005949974060058594
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 245493,
+            "type": "SCALAR",
+            "max": [
+                48539
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 2535252,
+            "uri": "Mon_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 582480,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 582480,
+            "byteLength": 582480,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1164960,
+            "byteLength": 388320,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1553280,
+            "byteLength": 981972,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "55",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0
+            },
+            "alphaCutoff": 0.10000000149011612,
+            "alphaMode": "MASK",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Mon",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "root",
+            "children": [
+                2
+            ],
+            "extras": {
+                "name": "root"
+            }
+        },
+        {
+            "name": "node_id33",
+            "matrix": [
+                0.042914923280477524,
+                1.3635572780846679e-17,
+                0.1029897928237915,
+                0.0,
+                -2.9322178018986733e-10,
+                0.11157327890396118,
+                1.2218288880649908e-10,
+                0.0,
+                -0.1029897928237915,
+                -3.176595375631308e-10,
+                0.042914923280477524,
+                0.0,
+                -0.0011486633447930217,
+                -0.2550778090953827,
+                0.12210779637098312,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "node_id33"
+            }
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9985
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
